@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ImageVault.Client</id>
+    <version>4.0.0.1189</version>
+    <authors>Dan Händevik</authors>
+    <owners>Dan Händevik</owners>
+    <licenseUrl>http://www.meridium.se/</licenseUrl>
+    <projectUrl>http://www.meridium.se/</projectUrl>
+    <iconUrl>http://nuget.meridium.se/Icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Client API library for ImageVault</description>
+    <tags>Meridium Client API ImageVault</tags>
+    <dependencies>
+      <dependency id="log4net" version="[1.2.10]" />
+      <dependency id="Meridium.Lib" version="1.0.11" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.IdentityModel" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

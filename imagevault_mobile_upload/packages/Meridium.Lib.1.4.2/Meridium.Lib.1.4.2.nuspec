@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Meridium.Lib</id>
+    <version>1.4.2</version>
+    <authors>Dan Händevik</authors>
+    <owners>Dan Händevik</owners>
+    <licenseUrl>http://www.meridium.se/</licenseUrl>
+    <projectUrl>http://www.meridium.se/</projectUrl>
+    <iconUrl>http://nuget.meridium.se/Icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common library for Meridium projects</description>
+    <tags>Meridium Common library</tags>
+    <dependencies>
+      <dependency id="log4net" version="[1.2.10]" />
+    </dependencies>
+  </metadata>
+</package>
